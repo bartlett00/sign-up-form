@@ -1,1 +1,1 @@
-# sign-up-form
+    The goal of this project is to put to practice all of the information on forms learned from the previous lessons in the Intermediate HTML and CSS course.
