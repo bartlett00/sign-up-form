@@ -1,6 +1,27 @@
+body {
+    font-size: 16px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #main-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+}
+
+#image-container {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
 }
 
 #form-container {
@@ -8,7 +29,43 @@
     flex-flow: column wrap;
 }
 
+.splash-container {
+    padding: 100px 20px 100px 20px;
+}
+
+.has-account {
+    padding: 25px 20px 25px 20px;
+}
+
 #form {
+    background-color: #ccc;
+    padding: 20px;
+    width: 100%;
+}
+
+form {
     display: flex;
     flex-flow: row wrap;
+    width: 600px;
+
+}
+
+.widget-wrapper {
+    margin: 25px 20px 25px 20px;
+    width: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+   
+}
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
 }
