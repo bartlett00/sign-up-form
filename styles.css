@@ -1,3 +1,14 @@
-p {
-    font-size: 35px;
+#main-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#form-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#form {
+    display: flex;
+    flex-flow: row wrap;
 }
