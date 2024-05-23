@@ -10,52 +10,57 @@
     <div id="main-container">
         <div id="image-container">
             <img src="./gantavya-bhatt-vj15n7OJOpQ-unsplash.jpg" alt="A green aurora over snow-capped mountains under a starry, purple night sky.">
-            <div id="title-box">ODIN</div>
+
+            <div id="title-box">
+                <img id="logo" src="./odin-lined.png" alt="Logo for The Odin Project.">
+                <div class="title">ODIN</div>
+            </div>
+
             <div id="credit">Photo by <a href="https://unsplash.com/@gbhatt_2?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gantavya Bhatt</a> on <a href="https://unsplash.com/photos/a-green-and-purple-aurora-bore-over-a-mountain-range-vj15n7OJOpQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </div>
         </div>
         <div id="form-container">
             <div class="splash-container">
-                 <div class="warning">This is not a real service.</div>
                 <div id="tagline">Sign up for Lorem Ipsum plus today! enter your information below to get started.</div>
+                <div class="warning">This is not a real service.</div>
             </div>
            
             <div id="form">
-                <form action="#" method="post">
+                <form id="sign-up" action="#" method="post">
                     
                     <div class="widget-wrapper">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input required type="text" id="first-name" name="first-name">
                     </div>
 
                     <div class="widget-wrapper">
                     <label for="last-name" >Last Name</label>
-                    <input type="text" id="last-name" name="last-name">
+                    <input required type="text" id="last-name" name="last-name">
                     </div>
 
                     <div class="widget-wrapper">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input required type="email" id="email" name="email">
                     </div>
 
                     <div class="widget-wrapper">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input required type="tel" id="phone" name="phone">
                     </div>
 
                     <div class="widget-wrapper">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input required type="password" id="password" name="password">
                     </div>
 
                     <div class="widget-wrapper">
                         <label for="pwd-confirm">Confirm Password</label>
-                        <input type="password" id="pwd-confirm" name="pwd-confirm">
+                        <input required type="password" id="pwd-confirm" name="pwd-confirm">
                     </div>
                 </form>
             </div>
             <div class="footer">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="sign-up">Create Account</button>
                 <div class="has-account">Already have an account? <a href="#">Log in</a></div>
             </div>
             
